@@ -22,7 +22,7 @@ const App: React.FC = () => {
         TASKIFY
       </h1>
       <InputField todo={todo} setTodo={setTodo} handleGo={handleGo} />
-      <TodoList />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 };
